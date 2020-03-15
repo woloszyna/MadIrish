@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>showCaseDEASP</name>
+   <name>MadIrish</name>
    <tag></tag>
    <UUID>84b5ac15-f8c1-498e-9668-6c431f30562b</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Projects\LowCode\Katalon Studio\MadIrish\showCaseDEASP.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
