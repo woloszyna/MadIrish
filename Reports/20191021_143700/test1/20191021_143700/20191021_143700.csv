@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test1,Firefox 69.0,,,2019-10-21 14:37:04,2019-10-21 14:37:15,10.973s,INCOMPLETE
+,,,,,,,
+Test Cases/QuickHandsOn,Firefox 69.0,,,2019-10-21 14:37:04,2019-10-21 14:37:15,10.633s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2019-10-21 14:37:04,2019-10-21 14:37:09,4.417s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Firefox 69.0,,,2019-10-21 14:37:09,2019-10-21 14:37:09,0.482s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Firefox 69.0,,,2019-10-21 14:37:09,2019-10-21 14:37:10,0.339s,PASSED
+takeScreenshot(),Firefox 69.0,,,2019-10-21 14:37:10,2019-10-21 14:37:10,0.224s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Resources""))",Firefox 69.0,,,2019-10-21 14:37:10,2019-10-21 14:37:10,0.333s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Training""))",Firefox 69.0,,,2019-10-21 14:37:10,2019-10-21 14:37:10,0.249s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Resources""))",Firefox 69.0,,,2019-10-21 14:37:10,2019-10-21 14:37:11,0.297s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Reading""))",Firefox 69.0,,,2019-10-21 14:37:11,2019-10-21 14:37:11,0.200s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Resources""))",Firefox 69.0,,,2019-10-21 14:37:11,2019-10-21 14:37:11,0.326s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter""))",Firefox 69.0,,,2019-10-21 14:37:11,2019-10-21 14:37:11,0.188s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Resources""))",Firefox 69.0,,,2019-10-21 14:37:11,2019-10-21 14:37:12,0.294s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Create account""))",Firefox 69.0,,,2019-10-21 14:37:12,2019-10-21 14:37:12,0.243s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username""), ""test123@welfare.ie"")",Firefox 69.0,,,2019-10-21 14:37:12,2019-10-21 14:37:12,0.237s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password""), ""qP8g4ZP8zmxOyEuCUr69QQ=="")",Firefox 69.0,,,2019-10-21 14:37:12,2019-10-21 14:37:12,0.185s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/button_Sign in""))",Firefox 69.0,,,2019-10-21 14:37:12,2019-10-21 14:37:13,0.235s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/input_Email_email""), ""test@welfare.ie"")",Firefox 69.0,,,2019-10-21 14:37:13,2019-10-21 14:37:13,0.112s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/input_Password_password""), ""Wt9tj4kC2zrPXzAR6+1IxQ=="")",Firefox 69.0,,,2019-10-21 14:37:13,2019-10-21 14:37:13,0.106s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/button_Register""))",Firefox 69.0,,,2019-10-21 14:37:13,2019-10-21 14:37:13,0.197s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-10-21 14:37:13,2019-10-21 14:37:15,1.639s,PASSED

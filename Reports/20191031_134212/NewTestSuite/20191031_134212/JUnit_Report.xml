@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NewTestSuite" time="68.305" tests="3" failures="2" errors="0">
+   <testsuite name="NewTestSuite" tests="3" failures="2" errors="0" time="68.305" timestamp="2019-10-31 13:42:16" hostname="albert.woloszyn - static.105.255.46.78.clients.your-server.de" id="Test Suites/NewTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212"/>
+         <property name="logFiles" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/execution0.log"/>
+         <property name="attachments" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529342412.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529343775.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529345149.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529346065.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529355247.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529356714.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529358221.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529359153.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529368445.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529369584.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529370657.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529371589.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529403709.png"/>
+         <property name="hostName" value="albert.woloszyn - static.105.255.46.78.clients.your-server.de"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 78.0.3904.70"/>
+         <property name="hostAddress" value="78.46.255.105"/>
+         <property name="sessionId" value="d104e7ad210d1530d79f806507196f0d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/QuickHandsOnTestCase4" time="13.712" classname="Test Cases/QuickHandsOnTestCase4" status="FAILED">
+         <failure type="FAILED" message="Test Cases/QuickHandsOnTestCase4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'test@welfare.ie' of object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at QuickHandsOnTestCase4.run(QuickHandsOnTestCase4:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9558594bc66fb4a79e4b215c8ff0f923
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:762)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-10-31 13:42:17 - [TEST_CASE][FAILED] - Test Cases/QuickHandsOnTestCase4: Test Cases/QuickHandsOnTestCase4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'test@welfare.ie' of object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at QuickHandsOnTestCase4.run(QuickHandsOnTestCase4:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9558594bc66fb4a79e4b215c8ff0f923
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:762)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-10-31 13:42:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-10-31 13:42:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-31 13:42:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-31 13:42:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-10-31 13:42:20 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.56.101/"): Navigate to 'http://192.168.56.101/' successfully
+
+2019-10-31 13:42:21 - [MESSAGE][PASSED] - Navigate to 'http://192.168.56.101/' successfully
+
+2019-10-31 13:42:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Contact")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Contact' is clicked on
+
+2019-10-31 13:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Contact' is clicked on
+
+2019-10-31 13:42:22 - [TEST_STEP][PASSED] - verifyTextPresent("Contact", false): Text 'Contact' is present on page 
+
+2019-10-31 13:42:22 - [MESSAGE][PASSED] - Text 'Contact' is present on page 
+
+2019-10-31 13:42:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529342412.png]]
+
+2019-10-31 13:42:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:23 - [TEST_STEP][PASSED] - verifyTextPresent("Resources", false): Text 'Resources' is present on page 
+
+2019-10-31 13:42:23 - [MESSAGE][PASSED] - Text 'Resources' is present on page 
+
+2019-10-31 13:42:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529343775.png]]
+
+2019-10-31 13:42:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Training")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Training' is clicked on
+
+2019-10-31 13:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Training' is clicked on
+
+2019-10-31 13:42:24 - [TEST_STEP][PASSED] - verifyTextPresent("Training", false): Text 'Training' is present on page 
+
+2019-10-31 13:42:25 - [MESSAGE][PASSED] - Text 'Training' is present on page 
+
+2019-10-31 13:42:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529345149.png]]
+
+2019-10-31 13:42:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529346065.png]]
+
+2019-10-31 13:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Reading")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Reading' is clicked on
+
+2019-10-31 13:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Reading' is clicked on
+
+2019-10-31 13:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter' is clicked on
+
+2019-10-31 13:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter' is clicked on
+
+2019-10-31 13:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Create account")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Create account' is clicked on
+
+2019-10-31 13:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Create account' is clicked on
+
+2019-10-31 13:42:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username"), "test123@welfare.ie"): Text 'test123@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username'
+
+2019-10-31 13:42:29 - [MESSAGE][PASSED] - Text 'test123@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username'
+
+2019-10-31 13:42:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password"), "qP8g4ZP8zmxOyEuCUr69QQ=="): Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password'
+
+2019-10-31 13:42:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password'
+
+2019-10-31 13:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/button_Sign in")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Sign in' is clicked on
+
+2019-10-31 13:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Sign in' is clicked on
+
+2019-10-31 13:42:30 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Email_email"), "test@welfare.ie"): Unable to set text 'test@welfare.ie' of object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'test@welfare.ie' of object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at QuickHandsOnTestCase4.run(QuickHandsOnTestCase4:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9558594bc66fb4a79e4b215c8ff0f923
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:762)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1572528368048.run(Script1572528368048.groovy:60)
+	... 13 more
+)
+
+2019-10-31 13:42:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-10-31 13:42:31 - [MESSAGE][FAILED] - Unable to set text 'test@welfare.ie' of object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'test@welfare.ie' of object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at QuickHandsOnTestCase4.run(QuickHandsOnTestCase4:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9558594bc66fb4a79e4b215c8ff0f923
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:762)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1572528368048.run(Script1572528368048.groovy:60)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2019-10-31 13:42:17 - [TEST_CASE][FAILED] - Test Cases/QuickHandsOnTestCase4: Test Cases/QuickHandsOnTestCase4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'test@welfare.ie' of object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at QuickHandsOnTestCase4.run(QuickHandsOnTestCase4:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9558594bc66fb4a79e4b215c8ff0f923
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:762)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/QuickHandsOnTestCase5" time="14.409" classname="Test Cases/QuickHandsOnTestCase5" status="PASSED">
+         <system-out><![CDATA[2019-10-31 13:42:31 - [TEST_CASE][PASSED] - Test Cases/QuickHandsOnTestCase5: Test Cases/QuickHandsOnTestCase5
+
+2019-10-31 13:42:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-10-31 13:42:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-10-31 13:42:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-31 13:42:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-10-31 13:42:33 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.56.101/"): Navigate to 'http://192.168.56.101/' successfully
+
+2019-10-31 13:42:34 - [MESSAGE][PASSED] - Navigate to 'http://192.168.56.101/' successfully
+
+2019-10-31 13:42:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Contact")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Contact' is clicked on
+
+2019-10-31 13:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Contact' is clicked on
+
+2019-10-31 13:42:34 - [TEST_STEP][PASSED] - verifyTextPresent("Contact", false): Text 'Contact' is present on page 
+
+2019-10-31 13:42:35 - [MESSAGE][PASSED] - Text 'Contact' is present on page 
+
+2019-10-31 13:42:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529355247.png]]
+
+2019-10-31 13:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:36 - [TEST_STEP][PASSED] - verifyTextPresent("Resources", false): Text 'Resources' is present on page 
+
+2019-10-31 13:42:36 - [MESSAGE][PASSED] - Text 'Resources' is present on page 
+
+2019-10-31 13:42:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529356714.png]]
+
+2019-10-31 13:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Training")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Training' is clicked on
+
+2019-10-31 13:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Training' is clicked on
+
+2019-10-31 13:42:37 - [TEST_STEP][PASSED] - verifyTextPresent("Training", false): Text 'Training' is present on page 
+
+2019-10-31 13:42:38 - [MESSAGE][PASSED] - Text 'Training' is present on page 
+
+2019-10-31 13:42:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529358221.png]]
+
+2019-10-31 13:42:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529359153.png]]
+
+2019-10-31 13:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Reading")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Reading' is clicked on
+
+2019-10-31 13:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Reading' is clicked on
+
+2019-10-31 13:42:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter' is clicked on
+
+2019-10-31 13:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter' is clicked on
+
+2019-10-31 13:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Create account")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Create account' is clicked on
+
+2019-10-31 13:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Create account' is clicked on
+
+2019-10-31 13:42:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username"), "test123@welfare.ie"): Text 'test123@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username'
+
+2019-10-31 13:42:43 - [MESSAGE][PASSED] - Text 'test123@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username'
+
+2019-10-31 13:42:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password"), "qP8g4ZP8zmxOyEuCUr69QQ=="): Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password'
+
+2019-10-31 13:42:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password'
+
+2019-10-31 13:42:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/button_Sign in")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Sign in' is clicked on
+
+2019-10-31 13:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Sign in' is clicked on
+
+2019-10-31 13:42:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Email_email"), "test@welfare.ie"): Text 'test@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+
+2019-10-31 13:42:44 - [MESSAGE][PASSED] - Text 'test@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+
+2019-10-31 13:42:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Password_password"), "Wt9tj4kC2zrPXzAR6+1IxQ=="): Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Password_password'
+
+2019-10-31 13:42:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Password_password'
+
+2019-10-31 13:42:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/button_Register")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Register' is clicked on
+
+2019-10-31 13:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Register' is clicked on
+
+2019-10-31 13:42:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-10-31 13:42:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/QuickHandsOnTestCase1" time="38.816" classname="Test Cases/QuickHandsOnTestCase1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/QuickHandsOnTestCase1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at QuickHandsOnTestCase1.run(QuickHandsOnTestCase1:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on MAC (d104e7ad210d1530d79f806507196f0d)] -> xpath: //a[contains(text(),'Newsletter')]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d104e7ad210d1530d79f806507196f0d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-10-31 13:42:45 - [TEST_CASE][FAILED] - Test Cases/QuickHandsOnTestCase1: Test Cases/QuickHandsOnTestCase1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at QuickHandsOnTestCase1.run(QuickHandsOnTestCase1:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on MAC (d104e7ad210d1530d79f806507196f0d)] -> xpath: //a[contains(text(),'Newsletter')]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d104e7ad210d1530d79f806507196f0d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-10-31 13:42:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-10-31 13:42:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-31 13:42:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-10-31 13:42:46 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.56.101/"): Navigate to 'http://192.168.56.101/' successfully
+
+2019-10-31 13:42:47 - [MESSAGE][PASSED] - Navigate to 'http://192.168.56.101/' successfully
+
+2019-10-31 13:42:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Contact")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Contact' is clicked on
+
+2019-10-31 13:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Contact' is clicked on
+
+2019-10-31 13:42:48 - [TEST_STEP][PASSED] - verifyTextPresent("Contact", false): Text 'Contact' is present on page 
+
+2019-10-31 13:42:48 - [MESSAGE][PASSED] - Text 'Contact' is present on page 
+
+2019-10-31 13:42:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529368445.png]]
+
+2019-10-31 13:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:49 - [TEST_STEP][PASSED] - verifyTextPresent("Resources", false): Text 'Resources' is present on page 
+
+2019-10-31 13:42:49 - [MESSAGE][PASSED] - Text 'Resources' is present on page 
+
+2019-10-31 13:42:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529369584.png]]
+
+2019-10-31 13:42:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Training")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Training' is clicked on
+
+2019-10-31 13:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Training' is clicked on
+
+2019-10-31 13:42:50 - [TEST_STEP][PASSED] - verifyTextPresent("Training", false): Text 'Training' is present on page 
+
+2019-10-31 13:42:50 - [MESSAGE][PASSED] - Text 'Training' is present on page 
+
+2019-10-31 13:42:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529370657.png]]
+
+2019-10-31 13:42:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-31 13:42:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529371589.png]]
+
+2019-10-31 13:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Reading")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Reading' is clicked on
+
+2019-10-31 13:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Reading' is clicked on
+
+2019-10-31 13:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-31 13:42:52 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter")): Unable to click on object 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at QuickHandsOnTestCase1.run(QuickHandsOnTestCase1:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on MAC (d104e7ad210d1530d79f806507196f0d)] -> xpath: //a[contains(text(),'Newsletter')]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d104e7ad210d1530d79f806507196f0d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1571745801822.run(Script1571745801822.groovy:47)
+	... 13 more
+)
+
+2019-10-31 13:43:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at QuickHandsOnTestCase1.run(QuickHandsOnTestCase1:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on MAC (d104e7ad210d1530d79f806507196f0d)] -> xpath: //a[contains(text(),'Newsletter')]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d104e7ad210d1530d79f806507196f0d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1571745801822.run(Script1571745801822.groovy:47)
+	... 13 more
+)
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191031_134212/NewTestSuite/20191031_134212/1572529403709.png]]]]></system-out>
+         <system-err><![CDATA[2019-10-31 13:42:45 - [TEST_CASE][FAILED] - Test Cases/QuickHandsOnTestCase1: Test Cases/QuickHandsOnTestCase1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at QuickHandsOnTestCase1.run(QuickHandsOnTestCase1:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on MAC (d104e7ad210d1530d79f806507196f0d)] -> xpath: //a[contains(text(),'Newsletter')]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d104e7ad210d1530d79f806507196f0d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-31 13:42:16 - [TEST_SUITE][FAILED] - NewTestSuite: Test Cases/QuickHandsOnTestCase4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'test@welfare.ie' of object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at QuickHandsOnTestCase4.run(QuickHandsOnTestCase4:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9558594bc66fb4a79e4b215c8ff0f923
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:762)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-10-31 13:42:16 - [TEST_SUITE][FAILED] - NewTestSuite: Test Cases/QuickHandsOnTestCase4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'test@welfare.ie' of object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at QuickHandsOnTestCase4.run(QuickHandsOnTestCase4:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572529332443.run(TempTestSuite1572529332443.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IEDUBM4046103A', ip: 'fe80:0:0:0:ce5:a22a:d592:314%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/ks/x6fkqf2x5bv...}, goog:chromeOptions: {debuggerAddress: localhost:64171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9558594bc66fb4a79e4b215c8ff0f923
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:762)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+NewTestSuite,Firefox 69.0,,,2019-11-14 13:27:15,2019-11-14 13:27:58,43.141s,PASSED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase1,Firefox 69.0,,,2019-11-14 13:27:15,2019-11-14 13:27:58,42.852s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2019-11-14 13:27:15,2019-11-14 13:27:19,4.035s,PASSED
+"navigateToUrl(""www.google.com"")",Firefox 69.0,,,2019-11-14 13:27:19,2019-11-14 13:27:21,1.489s,PASSED
+delay(10),Firefox 69.0,,,2019-11-14 13:27:21,2019-11-14 13:27:31,10.027s,PASSED
+"click(findTestObject(""Google/Page_Google/GoogleLogo""))",Firefox 69.0,,,2019-11-14 13:27:31,2019-11-14 13:27:31,0.605s,PASSED
+delay(10),Firefox 69.0,,,2019-11-14 13:27:31,2019-11-14 13:27:41,10.008s,PASSED
+"click(findTestObject(""Google/Page_Google/Im FeelingLuckyButton""))",Firefox 69.0,,,2019-11-14 13:27:41,2019-11-14 13:27:43,1.716s,PASSED
+delay(10),Firefox 69.0,,,2019-11-14 13:27:43,2019-11-14 13:27:53,10.015s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-11-14 13:27:53,2019-11-14 13:27:58,4.688s,PASSED

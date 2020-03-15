@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 77.0.3865.120,,,2019-10-22 11:00:31,2019-10-22 11:01:16,44.630s,INCOMPLETE
+,,,,,,,
+Test Cases/QuickHandsOn,Chrome 77.0.3865.120,,,2019-10-22 11:00:32,2019-10-22 11:01:16,44.287s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 11:00:32,2019-10-22 11:00:34,2.554s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 11:00:34,2019-10-22 11:01:16,41.238s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 11:01:16,2019-10-22 11:01:16,0.235s,FAILED

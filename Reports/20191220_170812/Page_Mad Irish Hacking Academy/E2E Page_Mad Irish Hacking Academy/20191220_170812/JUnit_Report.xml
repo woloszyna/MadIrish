@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="E2E Page_Mad Irish Hacking Academy" time="0.658" tests="1" failures="0" errors="0">
+   <testsuite name="E2E Page_Mad Irish Hacking Academy" tests="1" failures="0" errors="0" time="0.658" timestamp="2019-12-20 17:08:34" hostname="albert.woloszyn - 10.139.80.116" id="Test Suites/Page_Mad Irish Hacking Academy/E2E Page_Mad Irish Hacking Academy">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191220_170812/Page_Mad Irish Hacking Academy/E2E Page_Mad Irish Hacking Academy/20191220_170812"/>
+         <property name="logFiles" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191220_170812/Page_Mad Irish Hacking Academy/E2E Page_Mad Irish Hacking Academy/20191220_170812/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="albert.woloszyn - 10.139.80.116"/>
+         <property name="hostAddress" value="10.139.80.116"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+      </properties>
+      <testcase name="Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 1 - Landing Page Verification" time="0.462" classname="Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 1 - Landing Page Verification" status="INCOMPLETE">
+         <system-out><![CDATA[2019-12-20 17:08:34 - [TEST_CASE][INCOMPLETE] - Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 1 - Landing Page Verification: null
+
+2019-12-20 17:08:34 - [TEST_STEP][INCOMPLETE] - openBrowser("http://192.168.56.101/"): Action delay is set to 0 seconds
+
+2019-12-20 17:08:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-20 17:08:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds]]></system-out>
+         <system-err><![CDATA[2019-12-20 17:08:34 - [TEST_CASE][INCOMPLETE] - Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 1 - Landing Page Verification: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-20 17:08:34 - [TEST_SUITE][INCOMPLETE] - E2E Page_Mad Irish Hacking Academy: null]]></system-out>
+      <system-err><![CDATA[2019-12-20 17:08:34 - [TEST_SUITE][INCOMPLETE] - E2E Page_Mad Irish Hacking Academy: null]]></system-err>
+   </testsuite>
+</testsuites>

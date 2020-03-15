@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+showCaseTestSuite1,Chrome 77.0.3865.120,,,2019-10-22 13:55:19,2019-10-22 13:56:54,1m - 35.247s,INCOMPLETE
+,,,,,,,
+Test Cases/QuickHandsOnTestCase1,Chrome 77.0.3865.120,,,2019-10-22 13:55:20,2019-10-22 13:55:45,25.025s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:55:21,2019-10-22 13:55:42,21.363s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:55:42,2019-10-22 13:55:43,1.082s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:55:43,2019-10-22 13:55:45,1.683s,FAILED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase5,Chrome 77.0.3865.120,,,2019-10-22 13:55:45,2019-10-22 13:55:52,6.877s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:55:46,2019-10-22 13:55:49,2.965s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:55:49,2019-10-22 13:55:51,1.316s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:55:51,2019-10-22 13:55:52,1.300s,FAILED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase4,Chrome 77.0.3865.120,,,2019-10-22 13:55:52,2019-10-22 13:56:05,12.945s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:55:53,2019-10-22 13:56:03,10.357s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:56:03,2019-10-22 13:56:04,0.743s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:56:04,2019-10-22 13:56:05,0.663s,FAILED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase10,Chrome 77.0.3865.120,,,2019-10-22 13:56:05,2019-10-22 13:56:11,6.326s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:56:05,2019-10-22 13:56:08,3.189s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:56:08,2019-10-22 13:56:11,2.120s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:56:11,2019-10-22 13:56:11,0.608s,FAILED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase8,Chrome 77.0.3865.120,,,2019-10-22 13:56:11,2019-10-22 13:56:21,10.178s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:56:12,2019-10-22 13:56:20,7.387s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:56:20,2019-10-22 13:56:21,1.273s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:56:21,2019-10-22 13:56:21,0.719s,FAILED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase9,Chrome 77.0.3865.120,,,2019-10-22 13:56:22,2019-10-22 13:56:27,5.926s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:56:22,2019-10-22 13:56:26,3.864s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:56:26,2019-10-22 13:56:27,1.090s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:56:27,2019-10-22 13:56:27,0.716s,FAILED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase6,Chrome 77.0.3865.120,,,2019-10-22 13:56:27,2019-10-22 13:56:32,4.995s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:56:28,2019-10-22 13:56:30,1.951s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:56:30,2019-10-22 13:56:32,1.283s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:56:32,2019-10-22 13:56:32,0.741s,FAILED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase2,Chrome 77.0.3865.120,,,2019-10-22 13:56:32,2019-10-22 13:56:36,3.741s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:56:33,2019-10-22 13:56:35,1.639s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:56:35,2019-10-22 13:56:36,0.885s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:56:36,2019-10-22 13:56:36,0.522s,FAILED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase3,Chrome 77.0.3865.120,,,2019-10-22 13:56:36,2019-10-22 13:56:43,6.972s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:56:37,2019-10-22 13:56:41,4.397s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:56:41,2019-10-22 13:56:42,1.299s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:56:42,2019-10-22 13:56:43,0.766s,FAILED
+,,,,,,,
+Test Cases/QuickHandsOnTestCase7,Chrome 77.0.3865.120,,,2019-10-22 13:56:43,2019-10-22 13:56:54,11.192s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-22 13:56:44,2019-10-22 13:56:53,8.985s,PASSED
+"navigateToUrl(""http://192.168.56.101/"")",Chrome 77.0.3865.120,,,2019-10-22 13:56:53,2019-10-22 13:56:54,0.944s,PASSED
+"click(findTestObject(""Object Repository/Page_Mad Irish Hacking Academy/a_Contact""))",Chrome 77.0.3865.120,,,2019-10-22 13:56:54,2019-10-22 13:56:54,0.745s,FAILED

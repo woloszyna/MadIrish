@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="New Test Suite" time="10" tests="1" failures="0" errors="0">
+    <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="10" timestamp="2019-10-22 11:02:22" hostname="albert.woloszyn - static.105.255.46.78.clients.your-server.de" id="Test Suites/New Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206"/>
+            <property name="logFiles" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206/execution0.log"/>
+            <property name="attachments" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206/1571738547702.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206/1571738548190.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206/1571738548572.png, /Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206/1571738548935.png"/>
+            <property name="hostName" value="albert.woloszyn - static.105.255.46.78.clients.your-server.de"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 69.0"/>
+            <property name="hostAddress" value="78.46.255.105"/>
+            <property name="sessionId" value="cd3185fa-ae6f-ab4f-b69c-611c2691c6a7"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/QuickHandsOn" classname="Test Cases/QuickHandsOn" status="PASSED">
+            <system-out>2019-10-22 11:02:22 - [TEST_CASE][PASSED] - Test Cases/QuickHandsOn: Test Cases/QuickHandsOn
+
+2019-10-22 11:02:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-10-22 11:02:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-10-22 11:02:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-22 11:02:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-10-22 11:02:26 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.56.101/"): Navigate to 'http://192.168.56.101/' successfully
+
+2019-10-22 11:02:27 - [MESSAGE][PASSED] - Navigate to 'http://192.168.56.101/' successfully
+
+2019-10-22 11:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Contact")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Contact' is clicked on
+
+2019-10-22 11:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Contact' is clicked on
+
+2019-10-22 11:02:27 - [TEST_STEP][PASSED] - verifyTextPresent("Contact", false): Text 'Contact' is present on page 
+
+2019-10-22 11:02:27 - [MESSAGE][PASSED] - Text 'Contact' is present on page 
+
+2019-10-22 11:02:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-22 11:02:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206/1571738547702.png]]
+
+2019-10-22 11:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-22 11:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-22 11:02:28 - [TEST_STEP][PASSED] - verifyTextPresent("Resources", false): Text 'Resources' is present on page 
+
+2019-10-22 11:02:28 - [MESSAGE][PASSED] - Text 'Resources' is present on page 
+
+2019-10-22 11:02:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-22 11:02:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206/1571738548190.png]]
+
+2019-10-22 11:02:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Training")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Training' is clicked on
+
+2019-10-22 11:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Training' is clicked on
+
+2019-10-22 11:02:28 - [TEST_STEP][PASSED] - verifyTextPresent("Training", false): Text 'Training' is present on page 
+
+2019-10-22 11:02:28 - [MESSAGE][PASSED] - Text 'Training' is present on page 
+
+2019-10-22 11:02:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-22 11:02:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206/1571738548572.png]]
+
+2019-10-22 11:02:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-22 11:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-22 11:02:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-10-22 11:02:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191022_110205/New Test Suite/20191022_110206/1571738548935.png]]
+
+2019-10-22 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Reading")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Reading' is clicked on
+
+2019-10-22 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Reading' is clicked on
+
+2019-10-22 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-22 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-22 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter' is clicked on
+
+2019-10-22 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Newsletter' is clicked on
+
+2019-10-22 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Resources")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-22 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Resources' is clicked on
+
+2019-10-22 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/a_Create account")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Create account' is clicked on
+
+2019-10-22 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/a_Create account' is clicked on
+
+2019-10-22 11:02:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username"), "test123@welfare.ie"): Text 'test123@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username'
+
+2019-10-22 11:02:30 - [MESSAGE][PASSED] - Text 'test123@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_username'
+
+2019-10-22 11:02:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password"), "qP8g4ZP8zmxOyEuCUr69QQ=="): Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password'
+
+2019-10-22 11:02:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Create account_password'
+
+2019-10-22 11:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/button_Sign in")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Sign in' is clicked on
+
+2019-10-22 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Sign in' is clicked on
+
+2019-10-22 11:02:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Email_email"), "test@welfare.ie"): Text 'test@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+
+2019-10-22 11:02:30 - [MESSAGE][PASSED] - Text 'test@welfare.ie' is set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Email_email'
+
+2019-10-22 11:02:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/input_Password_password"), "Wt9tj4kC2zrPXzAR6+1IxQ=="): Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Password_password'
+
+2019-10-22 11:02:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mad Irish Hacking Academy/input_Password_password'
+
+2019-10-22 11:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mad Irish Hacking Academy/button_Register")): Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Register' is clicked on
+
+2019-10-22 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy/button_Register' is clicked on
+
+2019-10-22 11:02:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-10-22 11:02:32 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-22 11:02:22 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null</system-out>
+        <system-err>2019-10-22 11:02:22 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null</system-err>
+    </testsuite>
+</testsuites>

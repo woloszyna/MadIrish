@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="E2E Page_Mad Irish Hacking Academy" time="127.845" tests="11" failures="0" errors="0">
+   <testsuite name="E2E Page_Mad Irish Hacking Academy" tests="11" failures="0" errors="0" time="127.845" timestamp="2019-12-19 16:32:48" hostname="albert.woloszyn - static.105.255.46.78.clients.your-server.de" id="Test Suites/E2E Page_Mad Irish Hacking Academy">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191219_163243/E2E Page_Mad Irish Hacking Academy/20191219_163243"/>
+         <property name="logFiles" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191219_163243/E2E Page_Mad Irish Hacking Academy/20191219_163243/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="albert.woloszyn - static.105.255.46.78.clients.your-server.de"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="78.46.255.105"/>
+         <property name="sessionId" value="d211796c951dc207839b3355e39993fd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Element Verification/Test 1 - Landing Page Verification" time="18.596" classname="Test Cases/Element Verification/Test 1 - Landing Page Verification" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:32:48 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 1 - Landing Page Verification: Test Cases/Element Verification/Test 1 - Landing Page Verification
+
+2019-12-19 16:32:49 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:32:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:32:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-19 16:32:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Mad Irish Hacking Academy")): Object: 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is clicked on
+
+2019-12-19 16:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is clicked on
+
+2019-12-19 16:32:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Initial Checks on every page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:00 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Initial Checks on every page: Test Cases/Utilities and Prechecks/Initial Checks on every page
+
+2019-12-19 16:33:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Mad Irish Hacking Academy"), 5): Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_About"), 5): Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:01 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Contact"), 5): Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:01 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret"), STOP_ON_FAILURE): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Training"), 0): Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Reading"), 0): Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Newsletter"), 0): Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:03 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Create account"), 0): Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:03 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_username"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:03 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_password"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:04 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/button_Sign in"), 0): Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:04 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Landing Page/a_Learn more"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/a_Learn more' is present
+
+2019-12-19 16:33:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/a_Learn more' is present
+
+2019-12-19 16:33:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Landing Page/h2_Live Training"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/h2_Live Training' is present
+
+2019-12-19 16:33:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/h2_Live Training' is present
+
+2019-12-19 16:33:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Landing Page/p_Browse our catalog of upcoming courses an_5f7925"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/p_Browse our catalog of upcoming courses an_5f7925' is present
+
+2019-12-19 16:33:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/p_Browse our catalog of upcoming courses an_5f7925' is present
+
+2019-12-19 16:33:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Landing Page/a_View details_Live_Training"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/a_View details_Live_Training' is present
+
+2019-12-19 16:33:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/a_View details_Live_Training' is present
+
+2019-12-19 16:33:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Landing Page/h2_Reading Room"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/h2_Reading Room' is present
+
+2019-12-19 16:33:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/h2_Reading Room' is present
+
+2019-12-19 16:33:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Landing Page/p_Look through our extensive collection of _48c044"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/p_Look through our extensive collection of _48c044' is present
+
+2019-12-19 16:33:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/p_Look through our extensive collection of _48c044' is present
+
+2019-12-19 16:33:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Landing Page/a_View details_Reading_Room"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/a_View details_Reading_Room' is present
+
+2019-12-19 16:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/a_View details_Reading_Room' is present
+
+2019-12-19 16:33:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Landing Page/h2_Newsletter"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/h2_Newsletter' is present
+
+2019-12-19 16:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/h2_Newsletter' is present
+
+2019-12-19 16:33:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Landing Page/a_View details_Newsletter"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/a_View details_Newsletter' is present
+
+2019-12-19 16:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Landing Page/a_View details_Newsletter' is present
+
+2019-12-19 16:33:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:33:07 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:33:07 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:33:07 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:33:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element Verification/Test 2 - About Page Verification" time="14.86" classname="Test Cases/Element Verification/Test 2 - About Page Verification" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:33:07 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 2 - About Page Verification: Test Cases/Element Verification/Test 2 - About Page Verification
+
+2019-12-19 16:33:07 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:33:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:33:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:33:15 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:16 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_About")): Object: 'Object Repository/Top Bar on every page/a_About' is clicked on
+
+2019-12-19 16:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_About' is clicked on
+
+2019-12-19 16:33:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Initial Checks on every page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:17 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Initial Checks on every page: Test Cases/Utilities and Prechecks/Initial Checks on every page
+
+2019-12-19 16:33:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Mad Irish Hacking Academy"), 5): Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:17 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_About"), 5): Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:17 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Contact"), 5): Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:18 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret"), STOP_ON_FAILURE): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Training"), 0): Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:18 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Reading"), 0): Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Newsletter"), 0): Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Create account"), 0): Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_username"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_password"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/button_Sign in"), 0): Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mad Irish Hacking Academy About Page/h1_Mad Irish Hacking Academy"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy About Page/h1_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy About Page/h1_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mad Irish Hacking Academy About Page/p_Learn the critical technical skills neces_924597"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy About Page/p_Learn the critical technical skills neces_924597' is present
+
+2019-12-19 16:33:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy About Page/p_Learn the critical technical skills neces_924597' is present
+
+2019-12-19 16:33:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:33:22 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:33:22 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:33:22 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:33:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element Verification/Test 3 - Contact Page Verification" time="14.996" classname="Test Cases/Element Verification/Test 3 - Contact Page Verification" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:33:22 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 3 - Contact Page Verification: Test Cases/Element Verification/Test 3 - Contact Page Verification
+
+2019-12-19 16:33:22 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:33:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:33:29 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Contact")): Object: 'Object Repository/Top Bar on every page/a_Contact' is clicked on
+
+2019-12-19 16:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Contact' is clicked on
+
+2019-12-19 16:33:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Initial Checks on every page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:31 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Initial Checks on every page: Test Cases/Utilities and Prechecks/Initial Checks on every page
+
+2019-12-19 16:33:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Mad Irish Hacking Academy"), 5): Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:31 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_About"), 5): Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:32 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Contact"), 5): Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:32 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret"), STOP_ON_FAILURE): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Training"), 0): Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:33 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Reading"), 0): Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:33 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Newsletter"), 0): Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:33 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Create account"), 0): Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:34 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_username"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:34 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_password"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:34 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/button_Sign in"), 0): Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:35 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Contact Page/h1_Contact"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/h1_Contact' is present
+
+2019-12-19 16:33:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/h1_Contact' is present
+
+2019-12-19 16:33:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Contact Page/Contact Page content"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/Contact Page content' is present
+
+2019-12-19 16:33:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/Contact Page content' is present
+
+2019-12-19 16:33:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Contact Page/input_Your name_name"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/input_Your name_name' is present
+
+2019-12-19 16:33:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/input_Your name_name' is present
+
+2019-12-19 16:33:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Contact Page/input_Your email_email"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/input_Your email_email' is present
+
+2019-12-19 16:33:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/input_Your email_email' is present
+
+2019-12-19 16:33:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Contact Page/textarea_Your message_body"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/textarea_Your message_body' is present
+
+2019-12-19 16:33:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Contact Page/textarea_Your message_body' is present
+
+2019-12-19 16:33:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:33:37 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:33:37 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:33:37 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:33:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element Verification/Test 4 - Trainings Page Verification" time="10.816" classname="Test Cases/Element Verification/Test 4 - Trainings Page Verification" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:33:37 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 4 - Trainings Page Verification: Test Cases/Element Verification/Test 4 - Trainings Page Verification
+
+2019-12-19 16:33:37 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:33:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:33:41 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Training")): Object: 'Object Repository/Top Bar on every page/a_Training' is clicked on
+
+2019-12-19 16:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Training' is clicked on
+
+2019-12-19 16:33:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Initial Checks on every page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:42 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Initial Checks on every page: Test Cases/Utilities and Prechecks/Initial Checks on every page
+
+2019-12-19 16:33:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Mad Irish Hacking Academy"), 5): Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:42 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_About"), 5): Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:43 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Contact"), 5): Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:43 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:43 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret"), STOP_ON_FAILURE): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Training"), 0): Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Reading"), 0): Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Newsletter"), 0): Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Create account"), 0): Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_username"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_password"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/button_Sign in"), 0): Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:46 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Trainings Page/h1_Trainings"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Trainings Page/h1_Trainings' is present
+
+2019-12-19 16:33:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Trainings Page/h1_Trainings' is present
+
+2019-12-19 16:33:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Trainings Page/h2_Information Security Basics"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Trainings Page/h2_Information Security Basics' is present
+
+2019-12-19 16:33:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Trainings Page/h2_Information Security Basics' is present
+
+2019-12-19 16:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Trainings Page/Training content"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Trainings Page/Training content' is present
+
+2019-12-19 16:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Trainings Page/Training content' is present
+
+2019-12-19 16:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Trainings Page/a_Register"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Trainings Page/a_Register' is present
+
+2019-12-19 16:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Trainings Page/a_Register' is present
+
+2019-12-19 16:33:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:33:47 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:33:47 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:33:48 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:33:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element Verification/Test 5 - Reading Page Verification before login" time="10.517" classname="Test Cases/Element Verification/Test 5 - Reading Page Verification before login" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:33:48 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 5 - Reading Page Verification before login: Test Cases/Element Verification/Test 5 - Reading Page Verification before login
+
+2019-12-19 16:33:48 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:33:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:33:52 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:33:52 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Reading")): Object: 'Object Repository/Top Bar on every page/a_Reading' is clicked on
+
+2019-12-19 16:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Reading' is clicked on
+
+2019-12-19 16:33:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Initial Checks on every page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:53 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Initial Checks on every page: Test Cases/Utilities and Prechecks/Initial Checks on every page
+
+2019-12-19 16:33:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Mad Irish Hacking Academy"), 5): Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:54 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:33:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_About"), 5): Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:54 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:33:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Contact"), 5): Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:55 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret"), STOP_ON_FAILURE): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:33:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Training"), 0): Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:55 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:33:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Reading"), 0): Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:56 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:33:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Newsletter"), 0): Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:56 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:33:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Create account"), 0): Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:56 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:33:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_username"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:57 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:33:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_password"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:57 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:33:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/button_Sign in"), 0): Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:57 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:33:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:33:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Reading Page/h1_Header"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/h1_Header' is present
+
+2019-12-19 16:33:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/h1_Header' is present
+
+2019-12-19 16:33:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Reading Page/Use the login form"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/Use the login form' is present
+
+2019-12-19 16:33:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:33:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/Use the login form' is present
+
+2019-12-19 16:33:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:33:58 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:33:58 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:33:58 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:33:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element Verification/Test 6 - Newsletter Page Verification before login" time="9.351" classname="Test Cases/Element Verification/Test 6 - Newsletter Page Verification before login" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:33:58 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 6 - Newsletter Page Verification before login: Test Cases/Element Verification/Test 6 - Newsletter Page Verification before login
+
+2019-12-19 16:33:58 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:33:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:34:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:01 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:03 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Newsletter")): Object: 'Object Repository/Top Bar on every page/a_Newsletter' is clicked on
+
+2019-12-19 16:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Newsletter' is clicked on
+
+2019-12-19 16:34:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Initial Checks on every page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:34:03 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Initial Checks on every page: Test Cases/Utilities and Prechecks/Initial Checks on every page
+
+2019-12-19 16:34:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Mad Irish Hacking Academy"), 5): Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:34:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_About"), 5): Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:34:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Contact"), 5): Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret"), STOP_ON_FAILURE): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Training"), 0): Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:34:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Reading"), 0): Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:34:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Newsletter"), 0): Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:34:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Create account"), 0): Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:06 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:34:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_username"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:34:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:06 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:34:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_password"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:34:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:06 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:34:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/button_Sign in"), 0): Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:34:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:34:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:34:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Newsletter Page/h1_Header"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/h1_Header' is present
+
+2019-12-19 16:34:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/h1_Header' is present
+
+2019-12-19 16:34:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Newsletter Page/p_Content"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/p_Content' is present
+
+2019-12-19 16:34:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/p_Content' is present
+
+2019-12-19 16:34:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:34:07 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:34:07 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:34:07 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:34:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element Verification/Test 7 - Create Account Page Verification" time="10.332" classname="Test Cases/Element Verification/Test 7 - Create Account Page Verification" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:34:07 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 7 - Create Account Page Verification: Test Cases/Element Verification/Test 7 - Create Account Page Verification
+
+2019-12-19 16:34:08 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:34:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Create account")): Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Initial Checks on every page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:34:12 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Initial Checks on every page: Test Cases/Utilities and Prechecks/Initial Checks on every page
+
+2019-12-19 16:34:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Mad Irish Hacking Academy"), 5): Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:34:12 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:34:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_About"), 5): Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:34:12 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:34:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Contact"), 5): Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:34:13 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:34:13 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret"), STOP_ON_FAILURE): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Training"), 0): Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:34:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:14 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:34:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Reading"), 0): Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:34:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:14 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:34:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Newsletter"), 0): Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:34:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:14 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:34:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Create account"), 0): Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:34:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:34:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_username"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:34:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:34:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_password"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:34:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:16 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:34:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/button_Sign in"), 0): Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:34:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:16 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:34:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:34:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/p_Header"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/p_Header' is present
+
+2019-12-19 16:34:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/p_Header' is present
+
+2019-12-19 16:34:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Email field"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Email field' is present
+
+2019-12-19 16:34:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Email field' is present
+
+2019-12-19 16:34:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Password field"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Password field' is present
+
+2019-12-19 16:34:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Password field' is present
+
+2019-12-19 16:34:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Register button"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Register button' is present
+
+2019-12-19 16:34:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Register button' is present
+
+2019-12-19 16:34:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Forgot your password link"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Forgot your password link' is present
+
+2019-12-19 16:34:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Forgot your password link' is present
+
+2019-12-19 16:34:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:34:18 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:34:18 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:34:18 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:34:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element Verification/Test 8 - Lost Password Page Verification" time="10.365" classname="Test Cases/Element Verification/Test 8 - Lost Password Page Verification" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:34:18 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 8 - Lost Password Page Verification: Test Cases/Element Verification/Test 8 - Lost Password Page Verification
+
+2019-12-19 16:34:18 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:34:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Create account")): Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Forgot your password link"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Forgot your password link' is clicked on
+
+2019-12-19 16:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Forgot your password link' is clicked on
+
+2019-12-19 16:34:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Initial Checks on every page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:34:23 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Initial Checks on every page: Test Cases/Utilities and Prechecks/Initial Checks on every page
+
+2019-12-19 16:34:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Mad Irish Hacking Academy"), 5): Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Mad Irish Hacking Academy' is present
+
+2019-12-19 16:34:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_About"), 5): Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_About' is present
+
+2019-12-19 16:34:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Contact"), 5): Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Contact' is present
+
+2019-12-19 16:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret"), STOP_ON_FAILURE): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Training"), 0): Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:34:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Training' is present
+
+2019-12-19 16:34:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Reading"), 0): Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:34:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Reading' is present
+
+2019-12-19 16:34:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Newsletter"), 0): Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:34:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Newsletter' is present
+
+2019-12-19 16:34:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/a_Create account"), 0): Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:34:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/a_Create account' is present
+
+2019-12-19 16:34:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_username"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:34:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_username' is present
+
+2019-12-19 16:34:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/input_Create account_password"), 0): Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:34:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/input_Create account_password' is present
+
+2019-12-19 16:34:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Top Bar on every page/button_Sign in"), 0): Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:34:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/Top Bar on every page/button_Sign in' is present
+
+2019-12-19 16:34:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Initial Checks on every page' successfully
+
+2019-12-19 16:34:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Lost Password Page/h1_Lost Password Header"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/h1_Lost Password Header' is present
+
+2019-12-19 16:34:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/h1_Lost Password Header' is present
+
+2019-12-19 16:34:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Lost Password Page/p_Content"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/p_Content' is present
+
+2019-12-19 16:34:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/p_Content' is present
+
+2019-12-19 16:34:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Lost Password Page/email field"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/email field' is present
+
+2019-12-19 16:34:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/email field' is present
+
+2019-12-19 16:34:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Lost Password Page/input realname field"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/input realname field' is present
+
+2019-12-19 16:34:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/input realname field' is present
+
+2019-12-19 16:34:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Lost Password Page/Look up account button"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/Look up account button' is present
+
+2019-12-19 16:34:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Lost Password Page/Look up account button' is present
+
+2019-12-19 16:34:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:34:28 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:34:28 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:34:28 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:34:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Creation and Verification/Test 9 - Account Creation" time="7.712" classname="Test Cases/Account Creation and Verification/Test 9 - Account Creation" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:34:28 - [TEST_CASE][PASSED] - Test Cases/Account Creation and Verification/Test 9 - Account Creation: Test Cases/Account Creation and Verification/Test 9 - Account Creation
+
+2019-12-19 16:34:28 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:34:32 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:32 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Create account")): Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:34 - [TEST_STEP][PASSED] - emailPrefix = currentTimeMillis().toString(): null
+
+2019-12-19 16:34:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Email field"), emailPrefix + "@email.com"): Text '1576773274334@email.com' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Email field'
+
+2019-12-19 16:34:35 - [MESSAGE][PASSED] - Text '1576773274334@email.com' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Email field'
+
+2019-12-19 16:34:35 - [TEST_STEP][PASSED] - password = currentTimeMillis().toString(): null
+
+2019-12-19 16:34:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Password field"), password + 0): Text '15767732751780' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Password field'
+
+2019-12-19 16:34:35 - [MESSAGE][PASSED] - Text '15767732751780' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Password field'
+
+2019-12-19 16:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Register button"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Register button' is clicked on
+
+2019-12-19 16:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Register button' is clicked on
+
+2019-12-19 16:34:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:34:36 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:34:36 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:34:36 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:34:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element Verification/Test 10 - Reading Page Verification after login" time="10.347" classname="Test Cases/Element Verification/Test 10 - Reading Page Verification after login" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:34:36 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 10 - Reading Page Verification after login: Test Cases/Element Verification/Test 10 - Reading Page Verification after login
+
+2019-12-19 16:34:36 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:34:41 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Create account")): Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:42 - [TEST_STEP][PASSED] - emailPrefix = currentTimeMillis().toString(): null
+
+2019-12-19 16:34:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Email field"), emailPrefix + "@email.com"): Text '1576773282967@email.com' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Email field'
+
+2019-12-19 16:34:43 - [MESSAGE][PASSED] - Text '1576773282967@email.com' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Email field'
+
+2019-12-19 16:34:43 - [TEST_STEP][PASSED] - password = currentTimeMillis().toString(): null
+
+2019-12-19 16:34:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Password field"), password + 0): Text '15767732834530' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Password field'
+
+2019-12-19 16:34:43 - [MESSAGE][PASSED] - Text '15767732834530' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Password field'
+
+2019-12-19 16:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Register button"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Register button' is clicked on
+
+2019-12-19 16:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Register button' is clicked on
+
+2019-12-19 16:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Reading")): Object: 'Object Repository/Top Bar on every page/a_Reading' is clicked on
+
+2019-12-19 16:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Reading' is clicked on
+
+2019-12-19 16:34:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Reading Page/div_CyberSecurity section"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/div_CyberSecurity section' is present
+
+2019-12-19 16:34:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/div_CyberSecurity section' is present
+
+2019-12-19 16:34:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Reading Page/a_Download button"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/a_Download button' is present
+
+2019-12-19 16:34:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/a_Download button' is present
+
+2019-12-19 16:34:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Reading Page/div_Higher Education section"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/div_Higher Education section' is present
+
+2019-12-19 16:34:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Reading Page/div_Higher Education section' is present
+
+2019-12-19 16:34:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:34:46 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:34:46 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:34:46 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:34:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Element Verification/Test 11 - Newsletter Page Verification after login" time="9.346" classname="Test Cases/Element Verification/Test 11 - Newsletter Page Verification after login" status="PASSED">
+         <system-out><![CDATA[2019-12-19 16:34:46 - [TEST_CASE][PASSED] - Test Cases/Element Verification/Test 11 - Newsletter Page Verification after login: Test Cases/Element Verification/Test 11 - Newsletter Page Verification after login
+
+2019-12-19 16:34:46 - [TEST_STEP][PASSED] - openBrowser("http://192.168.56.101/"): Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 16:34:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.56.101/'
+
+2019-12-19 16:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Create account")): Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Create account' is clicked on
+
+2019-12-19 16:34:52 - [TEST_STEP][PASSED] - emailPrefix = currentTimeMillis().toString(): null
+
+2019-12-19 16:34:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Email field"), emailPrefix + "@email.com"): Text '1576773292611@email.com' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Email field'
+
+2019-12-19 16:34:53 - [MESSAGE][PASSED] - Text '1576773292611@email.com' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Email field'
+
+2019-12-19 16:34:53 - [TEST_STEP][PASSED] - password = currentTimeMillis().toString(): null
+
+2019-12-19 16:34:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Password field"), password + 0): Text '15767732932050' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Password field'
+
+2019-12-19 16:34:53 - [MESSAGE][PASSED] - Text '15767732932050' is set on object 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Password field'
+
+2019-12-19 16:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mad Irish Hacking Academy Create Account Page/Register button"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Register button' is clicked on
+
+2019-12-19 16:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mad Irish Hacking Academy Create Account Page/Register button' is clicked on
+
+2019-12-19 16:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/b_Contact_caret")): Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/b_Contact_caret' is clicked on
+
+2019-12-19 16:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Top Bar on every page/a_Newsletter")): Object: 'Object Repository/Top Bar on every page/a_Newsletter' is clicked on
+
+2019-12-19 16:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Bar on every page/a_Newsletter' is clicked on
+
+2019-12-19 16:34:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Newsletter Page/h3_Conficker Legal and Policy Considerations"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/h3_Conficker Legal and Policy Considerations' is present
+
+2019-12-19 16:34:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/h3_Conficker Legal and Policy Considerations' is present
+
+2019-12-19 16:34:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Newsletter Page/p_Posted by Brian Hershel"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/p_Posted by Brian Hershel' is present
+
+2019-12-19 16:34:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/p_Posted by Brian Hershel' is present
+
+2019-12-19 16:34:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mad Irish Hacking Academy Newsletter Page/a_Read"), 0): Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/a_Read' is present
+
+2019-12-19 16:34:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-19 16:34:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mad Irish Hacking Academy Newsletter Page/a_Read' is present
+
+2019-12-19 16:34:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities and Prechecks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully
+
+2019-12-19 16:34:55 - [TEST_CASE][PASSED] - Test Cases/Utilities and Prechecks/Close Browser: Test Cases/Utilities and Prechecks/Close Browser
+
+2019-12-19 16:34:55 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-12-19 16:34:56 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-19 16:34:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities and Prechecks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-19 16:32:48 - [TEST_SUITE][PASSED] - E2E Page_Mad Irish Hacking Academy: Test Cases/Element Verification/Test 11 - Newsletter Page Verification after login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

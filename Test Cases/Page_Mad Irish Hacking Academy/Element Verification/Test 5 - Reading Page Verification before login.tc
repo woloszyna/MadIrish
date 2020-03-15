@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test 5 - Reading Page Verification before login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5d922d9-80bf-4796-a5c9-4dcfab8b54b9</testCaseGuid>
+</TestCaseEntity>

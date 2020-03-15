@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NewTestSuite" time="39.098" tests="1" failures="0" errors="0">
+   <testsuite name="NewTestSuite" tests="1" failures="0" errors="0" time="39.098" timestamp="2019-11-14 13:26:33" hostname="albert.woloszyn - static.105.255.46.78.clients.your-server.de" id="Test Suites/NewTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191114_132627/NewTestSuite/20191114_132627"/>
+         <property name="logFiles" value="/Users/albert.woloszyn/Katalon Studio/showCaseDEASP/Reports/20191114_132627/NewTestSuite/20191114_132627/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="albert.woloszyn - static.105.255.46.78.clients.your-server.de"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 78.0.3904.97"/>
+         <property name="hostAddress" value="78.46.255.105"/>
+         <property name="sessionId" value="11c9c986d3a3679052cb838188a1a534"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/QuickHandsOnTestCase1" time="38.388" classname="Test Cases/QuickHandsOnTestCase1" status="PASSED">
+         <system-out><![CDATA[2019-11-14 13:26:33 - [TEST_CASE][PASSED] - Test Cases/QuickHandsOnTestCase1: Test Cases/QuickHandsOnTestCase1
+
+2019-11-14 13:26:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-14 13:26:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-14 13:26:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-14 13:26:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-14 13:26:37 - [TEST_STEP][PASSED] - navigateToUrl("www.google.com"): Navigate to 'http://www.google.com' successfully
+
+2019-11-14 13:26:38 - [MESSAGE][PASSED] - Navigate to 'http://www.google.com' successfully
+
+2019-11-14 13:26:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-11-14 13:26:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-11-14 13:26:48 - [TEST_STEP][PASSED] - click(findTestObject("Google/Page_Google/GoogleLogo")): Object: 'Object Repository/Google/Page_Google/GoogleLogo' is clicked on
+
+2019-11-14 13:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Google/Page_Google/GoogleLogo' is clicked on
+
+2019-11-14 13:26:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-11-14 13:26:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-11-14 13:26:59 - [TEST_STEP][PASSED] - click(findTestObject("Google/Page_Google/Im FeelingLuckyButton")): Object: 'Object Repository/Google/Page_Google/Im FeelingLuckyButton' is clicked on
+
+2019-11-14 13:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Google/Page_Google/Im FeelingLuckyButton' is clicked on
+
+2019-11-14 13:27:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-11-14 13:27:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-11-14 13:27:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-14 13:27:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-14 13:26:33 - [TEST_SUITE][PASSED] - NewTestSuite: Test Cases/QuickHandsOnTestCase1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

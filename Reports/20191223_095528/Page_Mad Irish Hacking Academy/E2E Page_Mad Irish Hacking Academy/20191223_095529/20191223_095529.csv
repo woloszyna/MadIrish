@@ -1,0 +1,135 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+E2E Page_Mad Irish Hacking Academy,Firefox 70.0,,,2019-12-23 09:57:01,2019-12-23 09:59:02,2m - 1.165s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 1 - Landing Page Verification,Firefox 70.0,,,2019-12-23 09:57:01,2019-12-23 09:57:16,14.801s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:57:02,2019-12-23 09:57:08,5.737s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Mad Irish Hacking Academy""))",Firefox 70.0,,,2019-12-23 09:57:08,2019-12-23 09:57:08,0.766s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Initial Checks on every page""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:08,2019-12-23 09:57:12,3.532s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Landing Page/a_Learn more""), 0)",Firefox 70.0,,,2019-12-23 09:57:12,2019-12-23 09:57:12,0.266s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Landing Page/h2_Live Training""), 0)",Firefox 70.0,,,2019-12-23 09:57:12,2019-12-23 09:57:12,0.256s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Landing Page/p_Browse our catalog of upcoming courses an_5f7925""), 0)",Firefox 70.0,,,2019-12-23 09:57:12,2019-12-23 09:57:13,0.251s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Landing Page/a_View details_Live_Training""), 0)",Firefox 70.0,,,2019-12-23 09:57:13,2019-12-23 09:57:13,0.283s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Landing Page/h2_Reading Room""), 0)",Firefox 70.0,,,2019-12-23 09:57:13,2019-12-23 09:57:13,0.265s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Landing Page/p_Look through our extensive collection of _48c044""), 0)",Firefox 70.0,,,2019-12-23 09:57:13,2019-12-23 09:57:13,0.251s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Landing Page/a_View details_Reading_Room""), 0)",Firefox 70.0,,,2019-12-23 09:57:13,2019-12-23 09:57:14,0.249s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Landing Page/h2_Newsletter""), 0)",Firefox 70.0,,,2019-12-23 09:57:14,2019-12-23 09:57:14,0.247s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Landing Page/a_View details_Newsletter""), 0)",Firefox 70.0,,,2019-12-23 09:57:14,2019-12-23 09:57:14,0.258s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:14,2019-12-23 09:57:16,2.059s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 2 - About Page Verification,Firefox 70.0,,,2019-12-23 09:57:16,2019-12-23 09:57:28,12.120s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:57:16,2019-12-23 09:57:20,3.418s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:57:20,2019-12-23 09:57:21,0.839s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_About""))",Firefox 70.0,,,2019-12-23 09:57:21,2019-12-23 09:57:21,0.510s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Initial Checks on every page""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:21,2019-12-23 09:57:25,3.439s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy About Page/h1_Mad Irish Hacking Academy""), 0)",Firefox 70.0,,,2019-12-23 09:57:25,2019-12-23 09:57:25,0.251s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy About Page/p_Learn the critical technical skills neces_924597""), 0)",Firefox 70.0,,,2019-12-23 09:57:25,2019-12-23 09:57:25,0.243s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:25,2019-12-23 09:57:28,3.255s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 3 - Contact Page Verification,Firefox 70.0,,,2019-12-23 09:57:28,2019-12-23 09:57:40,11.319s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:57:29,2019-12-23 09:57:32,3.418s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:57:32,2019-12-23 09:57:33,0.828s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Contact""))",Firefox 70.0,,,2019-12-23 09:57:33,2019-12-23 09:57:33,0.541s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Initial Checks on every page""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:33,2019-12-23 09:57:37,3.403s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Contact Page/h1_Contact""), 0)",Firefox 70.0,,,2019-12-23 09:57:37,2019-12-23 09:57:37,0.251s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Contact Page/Contact Page content""), 0)",Firefox 70.0,,,2019-12-23 09:57:37,2019-12-23 09:57:37,0.247s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Contact Page/input_Your name_name""), 0)",Firefox 70.0,,,2019-12-23 09:57:37,2019-12-23 09:57:37,0.249s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Contact Page/input_Your email_email""), 0)",Firefox 70.0,,,2019-12-23 09:57:37,2019-12-23 09:57:38,0.263s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Contact Page/textarea_Your message_body""), 0)",Firefox 70.0,,,2019-12-23 09:57:38,2019-12-23 09:57:38,0.249s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:38,2019-12-23 09:57:40,1.770s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 4 - Trainings Page Verification,Firefox 70.0,,,2019-12-23 09:57:40,2019-12-23 09:57:50,10.601s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:57:40,2019-12-23 09:57:43,3.149s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:57:43,2019-12-23 09:57:44,0.823s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Training""))",Firefox 70.0,,,2019-12-23 09:57:44,2019-12-23 09:57:44,0.512s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Initial Checks on every page""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:44,2019-12-23 09:57:48,3.357s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Trainings Page/h1_Trainings""), 0)",Firefox 70.0,,,2019-12-23 09:57:48,2019-12-23 09:57:48,0.249s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Trainings Page/h2_Information Security Basics""), 0)",Firefox 70.0,,,2019-12-23 09:57:48,2019-12-23 09:57:48,0.243s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Trainings Page/Training content""), 0)",Firefox 70.0,,,2019-12-23 09:57:48,2019-12-23 09:57:48,0.255s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Trainings Page/a_Register""), 0)",Firefox 70.0,,,2019-12-23 09:57:48,2019-12-23 09:57:49,0.253s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:49,2019-12-23 09:57:50,1.672s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 5 - Reading Page Verification before login,Firefox 70.0,,,2019-12-23 09:57:50,2019-12-23 09:58:01,10.988s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:57:50,2019-12-23 09:57:53,2.943s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:57:53,2019-12-23 09:57:54,0.829s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Reading""))",Firefox 70.0,,,2019-12-23 09:57:54,2019-12-23 09:57:55,0.509s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Initial Checks on every page""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:55,2019-12-23 09:57:58,3.321s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Reading Page/h1_Header""), 0)",Firefox 70.0,,,2019-12-23 09:57:58,2019-12-23 09:57:58,0.254s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Reading Page/Use the login form""), 0)",Firefox 70.0,,,2019-12-23 09:57:58,2019-12-23 09:57:59,0.250s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:57:59,2019-12-23 09:58:01,2.798s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 6 - Newsletter Page Verification before login,Firefox 70.0,,,2019-12-23 09:58:01,2019-12-23 09:58:11,9.996s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:58:01,2019-12-23 09:58:04,3.027s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:58:04,2019-12-23 09:58:05,0.822s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Newsletter""))",Firefox 70.0,,,2019-12-23 09:58:05,2019-12-23 09:58:06,0.526s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Initial Checks on every page""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:06,2019-12-23 09:58:09,3.337s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Newsletter Page/h1_Header""), 0)",Firefox 70.0,,,2019-12-23 09:58:09,2019-12-23 09:58:09,0.244s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Newsletter Page/p_Content""), 0)",Firefox 70.0,,,2019-12-23 09:58:09,2019-12-23 09:58:10,0.247s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:10,2019-12-23 09:58:11,1.684s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 7 - Create Account Page Verification,Firefox 70.0,,,2019-12-23 09:58:11,2019-12-23 09:58:22,10.785s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:58:11,2019-12-23 09:58:15,3.092s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:58:15,2019-12-23 09:58:15,0.827s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Create account""))",Firefox 70.0,,,2019-12-23 09:58:15,2019-12-23 09:58:16,0.553s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Initial Checks on every page""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:16,2019-12-23 09:58:19,3.297s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/p_Header""), 0)",Firefox 70.0,,,2019-12-23 09:58:19,2019-12-23 09:58:19,0.240s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Email field""), 0)",Firefox 70.0,,,2019-12-23 09:58:19,2019-12-23 09:58:20,0.241s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Password field""), 0)",Firefox 70.0,,,2019-12-23 09:58:20,2019-12-23 09:58:20,0.245s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Register button""), 0)",Firefox 70.0,,,2019-12-23 09:58:20,2019-12-23 09:58:20,0.248s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Forgot your password link""), 0)",Firefox 70.0,,,2019-12-23 09:58:20,2019-12-23 09:58:20,0.247s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:20,2019-12-23 09:58:22,1.667s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 8 - Lost Password Page Verification,Firefox 70.0,,,2019-12-23 09:58:22,2019-12-23 09:58:35,12.378s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:58:22,2019-12-23 09:58:25,3.022s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:58:25,2019-12-23 09:58:26,0.817s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Create account""))",Firefox 70.0,,,2019-12-23 09:58:26,2019-12-23 09:58:27,0.524s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Forgot your password link""), STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:27,2019-12-23 09:58:27,0.650s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Initial Checks on every page""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:27,2019-12-23 09:58:31,3.299s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Lost Password Page/h1_Lost Password Header""), 0)",Firefox 70.0,,,2019-12-23 09:58:31,2019-12-23 09:58:31,0.259s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Lost Password Page/p_Content""), 0)",Firefox 70.0,,,2019-12-23 09:58:31,2019-12-23 09:58:31,0.242s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Lost Password Page/email field""), 0)",Firefox 70.0,,,2019-12-23 09:58:31,2019-12-23 09:58:31,0.248s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Lost Password Page/input realname field""), 0)",Firefox 70.0,,,2019-12-23 09:58:31,2019-12-23 09:58:32,0.258s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Lost Password Page/Look up account button""), 0)",Firefox 70.0,,,2019-12-23 09:58:32,2019-12-23 09:58:32,0.241s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:32,2019-12-23 09:58:35,2.721s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Account Creation and Verification/Test 9 - Account Creation,Firefox 70.0,,,2019-12-23 09:58:35,2019-12-23 09:58:42,7.308s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:58:35,2019-12-23 09:58:37,2.860s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:58:37,2019-12-23 09:58:38,0.819s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Create account""))",Firefox 70.0,,,2019-12-23 09:58:38,2019-12-23 09:58:39,0.476s,PASSED
+emailPrefix = currentTimeMillis().toString(),Firefox 70.0,,,2019-12-23 09:58:39,2019-12-23 09:58:39,0.004s,PASSED
+"setText(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Email field""), emailPrefix + ""@email.com"")",Firefox 70.0,,,2019-12-23 09:58:39,2019-12-23 09:58:39,0.657s,PASSED
+password = currentTimeMillis().toString(),Firefox 70.0,,,2019-12-23 09:58:39,2019-12-23 09:58:39,0.001s,PASSED
+"setText(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Password field""), password + 0)",Firefox 70.0,,,2019-12-23 09:58:39,2019-12-23 09:58:40,0.298s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Register button""), STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:40,2019-12-23 09:58:40,0.441s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:40,2019-12-23 09:58:42,1.668s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 10 - Reading Page Verification after login,Firefox 70.0,,,2019-12-23 09:58:42,2019-12-23 09:58:52,9.880s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:58:42,2019-12-23 09:58:45,3.064s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:58:45,2019-12-23 09:58:46,0.828s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Create account""))",Firefox 70.0,,,2019-12-23 09:58:46,2019-12-23 09:58:46,0.485s,PASSED
+emailPrefix = currentTimeMillis().toString(),Firefox 70.0,,,2019-12-23 09:58:46,2019-12-23 09:58:46,0.001s,PASSED
+"setText(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Email field""), emailPrefix + ""@email.com"")",Firefox 70.0,,,2019-12-23 09:58:46,2019-12-23 09:58:47,0.631s,PASSED
+password = currentTimeMillis().toString(),Firefox 70.0,,,2019-12-23 09:58:47,2019-12-23 09:58:47,0.001s,PASSED
+"setText(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Password field""), password + 0)",Firefox 70.0,,,2019-12-23 09:58:47,2019-12-23 09:58:47,0.288s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Register button""), STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:47,2019-12-23 09:58:48,0.430s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:58:48,2019-12-23 09:58:48,0.814s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Reading""))",Firefox 70.0,,,2019-12-23 09:58:48,2019-12-23 09:58:49,0.514s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Reading Page/div_CyberSecurity section""), 0)",Firefox 70.0,,,2019-12-23 09:58:49,2019-12-23 09:58:50,0.563s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Reading Page/a_Download button""), 0)",Firefox 70.0,,,2019-12-23 09:58:50,2019-12-23 09:58:50,0.245s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Reading Page/div_Higher Education section""), 0)",Firefox 70.0,,,2019-12-23 09:58:50,2019-12-23 09:58:50,0.241s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:50,2019-12-23 09:58:52,1.677s,PASSED
+,,,,,,,
+Test Cases/Page_Mad Irish Hacking Academy/Element Verification/Test 11 - Newsletter Page Verification after login,Firefox 70.0,,,2019-12-23 09:58:52,2019-12-23 09:59:02,10.421s,PASSED
+"openBrowser(""http://192.168.56.101/"")",Firefox 70.0,,,2019-12-23 09:58:52,2019-12-23 09:58:55,3.495s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:58:55,2019-12-23 09:58:56,0.816s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Create account""))",Firefox 70.0,,,2019-12-23 09:58:56,2019-12-23 09:58:57,0.514s,PASSED
+emailPrefix = currentTimeMillis().toString(),Firefox 70.0,,,2019-12-23 09:58:57,2019-12-23 09:58:57,0.000s,PASSED
+"setText(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Email field""), emailPrefix + ""@email.com"")",Firefox 70.0,,,2019-12-23 09:58:57,2019-12-23 09:58:57,0.623s,PASSED
+password = currentTimeMillis().toString(),Firefox 70.0,,,2019-12-23 09:58:57,2019-12-23 09:58:57,0.001s,PASSED
+"setText(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Password field""), password + 0)",Firefox 70.0,,,2019-12-23 09:58:57,2019-12-23 09:58:58,0.276s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Create Account Page/Register button""), STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:58:58,2019-12-23 09:58:58,0.533s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/b_Contact_caret""))",Firefox 70.0,,,2019-12-23 09:58:58,2019-12-23 09:58:59,0.835s,PASSED
+"click(findTestObject(""Page_Mad Irish Hacking Academy/Top Bar on every page/a_Newsletter""))",Firefox 70.0,,,2019-12-23 09:58:59,2019-12-23 09:58:59,0.497s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Newsletter Page/h3_Conficker Legal and Policy Considerations""), 0)",Firefox 70.0,,,2019-12-23 09:58:59,2019-12-23 09:59:00,0.571s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Newsletter Page/p_Posted by Brian Hershel""), 0)",Firefox 70.0,,,2019-12-23 09:59:00,2019-12-23 09:59:00,0.250s,PASSED
+"verifyElementPresent(findTestObject(""Page_Mad Irish Hacking Academy/Page_Mad Irish Hacking Academy Newsletter Page/a_Read""), 0)",Firefox 70.0,,,2019-12-23 09:59:00,2019-12-23 09:59:01,0.249s,PASSED
+"callTestCase(findTestCase(""Page_Mad Irish Hacking Academy/Utilities and Prechecks/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-12-23 09:59:01,2019-12-23 09:59:02,1.665s,PASSED
